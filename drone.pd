@@ -113,9 +113,9 @@
 #X obj 223 349 tgl 10 1 empty empty md 0 -6 0 10 -262144 -1 -1 2 2
 ;
 #X obj 242 372 nbx 5 14 0 127 0 1 empty empty p -8 6 0 10 -262144 -1
--1 51.8832 256;
+-1 44.97 256;
 #X obj 442 371 nbx 5 14 0 127 0 1 empty empty p -8 6 0 10 -262144 -1
--1 46.2905 256;
+-1 47.98 256;
 #X obj 407 322 hsl 100 8 0.6 0.999 1 1 empty empty fb -18 4 0 10 -262144
 -1 -1 9900 1;
 #X obj 407 304 hsl 100 8 75 127 1 1 empty empty dp -18 4 0 10 -262144
@@ -212,7 +212,7 @@
 #X restore 367 421 pd resonator2;
 #X msg 466 113 52.99 46.02 40.79 60.98 67.98;
 #X obj 638 371 nbx 5 14 0 127 0 1 empty empty p -8 6 0 10 -262144 -1
--1 42.3397 256;
+-1 52.02 256;
 #X obj 603 322 hsl 100 8 0.6 0.999 1 1 empty empty fb -18 4 0 10 -262144
 -1 -1 9900 1;
 #X obj 603 304 hsl 100 8 75 127 1 1 empty empty dp -18 4 0 10 -262144
@@ -308,7 +308,7 @@
 #X coords 0 714 1 713 140 40 0;
 #X restore 563 421 pd resonator3;
 #X obj 803 374 nbx 5 14 0 127 0 1 empty empty p -8 6 0 10 -262144 -1
--1 60.7054 256;
+-1 58.99 256;
 #X obj 768 325 hsl 100 8 0.6 0.999 1 1 empty empty fb -18 4 0 10 -262144
 -1 -1 9900 1;
 #X obj 768 307 hsl 100 8 75 127 1 1 empty empty dp -18 4 0 10 -262144
@@ -404,7 +404,7 @@
 #X coords 0 714 1 713 140 40 0;
 #X restore 728 424 pd resonator4;
 #X obj 971 373 nbx 5 14 0 127 0 1 empty empty p -8 6 0 10 -262144 -1
--1 67.8517 256;
+-1 67.05 256;
 #X obj 936 324 hsl 100 8 0.6 0.999 1 1 empty empty fb -18 4 0 10 -262144
 -1 -1 9900 1;
 #X obj 936 306 hsl 100 8 75 127 1 1 empty empty dp -18 4 0 10 -262144
@@ -524,6 +524,8 @@
 #X obj 167 147 bp~ 20;
 #X text 790 564 after Martin Brinkman \, after David Lynch's Rabbits
 \, etc.;
+#X msg 960 144 10 20 30 40 50;
+#X msg 1061 145 20 30 50 80 130;
 #X connect 0 0 30 0;
 #X connect 1 0 0 0;
 #X connect 1 0 12 0;
@@ -582,3 +584,5 @@
 #X connect 46 0 47 0;
 #X connect 47 0 7 0;
 #X connect 48 0 1 0;
+#X connect 50 0 29 0;
+#X connect 51 0 29 0;
